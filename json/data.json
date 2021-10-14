@@ -1,0 +1,67 @@
+﻿{
+    "provincias": [
+        {
+                "id": 1,
+                "nombre": "San Jose",
+                "cantones": 20,
+                "distritos": 123,
+                "poblacion": "1 404 242",
+                "extension": "4 965,90",
+                "foto": ""
+            },
+            {
+                "id": 2,
+                "nombre": "Alajuela",
+                "cantones": 8,
+                "distritos": 116,
+                "poblacion": "1 029 568",
+                "extension": "9 757,53",
+                "foto": ""
+            },
+            {
+                "id": 3,
+                "nombre": "Cartago",
+                "cantones": 8,
+                "distritos": 51,
+                "poblacion": "541 259",
+                "extension": "3 124,67",
+                "foto": ""
+            },
+            {
+                "id": 4,
+                "nombre": "Heredia",
+                "cantones": 10,
+                "distritos": 47,
+                "poblacion": "526 092",
+                "extension": "2 656,99",
+                "foto": ""
+            },
+            {
+                "id": 5,
+                "nombre": "Guanacaste",
+                "cantones": 11,
+                "distritos": 61,
+                "poblacion": "393 893",
+                "extension": "10 140,71",
+                "foto": ""
+            },
+            {
+                "id": 6,
+                "nombre": "Puntarenas",
+                "cantones": 11,
+                "distritos": 60,
+                "poblacion": "498 779",
+                "extension": "11 265,69",
+                "foto": ""
+            },
+            {
+                "id": 7,
+                "nombre": "Limon",
+                "cantones": 6,
+                "distritos": 30,
+                "poblacion": "460 083",
+                "extension": "9 188,52",
+                "foto": "/esclimon.jpg"
+            }
+    ]
+}
