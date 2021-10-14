@@ -3,14 +3,20 @@
 }
 
 body {
-    font-family: sans-serif;
-    padding: 1px 20px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 0;
 }
 
 .grid-container {
     display: grid;
-    padding: 80px;
+    padding-top: 80px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: auto;
+}
+
+.grid-container1 {
+    display: grid;
+    padding-top: 30px;
     grid-template-columns: repeat(2, 1fr);
     grid-column: auto;
 }
@@ -29,8 +35,42 @@ body {
     align-self: center;
 }
 
+.geologia1 {
+    padding-top: 80px;
+}
+
+.grid-geologia {
+    display: grid;
+    padding: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    align-self: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    grid-gap: 30px;
+    align-items: start;
+}
+
+.historia1 {
+    padding-top: 80px;
+}
+
+.grid-historia {
+    display: grid;
+    padding: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    align-self: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    grid-gap: 40px;
+    align-items: start;
+}
+
+.acerca_de1 {
+    padding-top: 80px;
+}
+
 .texto {
-    font-size: 0.23in;
+    font-size: 0.19in;
 }
 
 .texto2 {
@@ -58,8 +98,8 @@ h1 {
 }
 
 h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 0.3in;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.28in;
     color: rgb(89, 77, 117);
 }
 
@@ -68,7 +108,7 @@ hr {
 }
 
 .maplabels1 {
-    font-family: 'Tahoma';
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 13px;
 }
 
