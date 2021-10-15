@@ -35,40 +35,6 @@ body {
     align-self: center;
 }
 
-.geologia1 {
-    padding-top: 80px;
-}
-
-.grid-geologia {
-    display: grid;
-    padding: 15px;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    align-self: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    grid-gap: 30px;
-    align-items: start;
-}
-
-.historia1 {
-    padding-top: 81px;
-}
-
-.grid-historia {
-    display: grid;
-    padding: 15px;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    align-self: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    grid-gap: 40px;
-    align-items: start;
-}
-
-.acerca_de1 {
-    padding-top: 80px;
-}
-
 .texto {
     font-size: 0.19in;
 }
@@ -325,4 +291,75 @@ li a {
 li a:hover {
     background-color: rgb(207, 207, 207);
     color: rgb(8, 3, 49);
+}
+
+.geologia1 {
+    padding-top: 80px;
+}
+
+.grid-geologia {
+    display: grid;
+    padding: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    align-self: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    grid-gap: 30px;
+    align-items: start;
+}
+
+.historia1 {
+    padding-top: 81px;
+}
+
+.grid-historia {
+    display: grid;
+    padding: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    align-self: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    grid-gap: 40px;
+    align-items: start;
+}
+
+.body-acerca {
+    background-image: url('/logos/fondo1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: rgb(245, 183, 76);
+}
+
+.acerca_de1 h1 {
+    padding-top: 60px;
+    color: white;
+}
+
+.menu-acercade {
+    background-color: transparent;
+}
+
+.menu-acercade a {
+    background-color: transparent;
+    color: rgb(11, 205, 72);
+}
+
+.acerca_de2 {
+    height: 480px;
+    width: 550px;
+    border-right: 10px;
+}
+
+.menu-acercade li a:hover {
+    background-color: rgb(214, 215, 207);
+    color: rgb(8, 3, 49);
+}
+
+.acerca_de1 h1 {
+    padding-left: 30px;
+}
+
+.acerca_de2 p {
+    padding-left: 30px;
 }
